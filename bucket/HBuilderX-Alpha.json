@@ -1,0 +1,27 @@
+{
+    "homepage": "https://www.dcloud.io/hbuilderx.html",
+    "version": "3.2.6.20210901-alpha",
+    "license": "Freeware",
+    "extract_dir": "HBuilderX",
+    "url": "https://download1.dcloud.net.cn/download/HBuilderX.3.2.6.20210901-alpha.zip",
+    "hash": "dc781217b3b532790eee94468ac3114413778d81b28017c3ce034fa957a916ac",
+    "bin": [
+        [
+            "HBuilderX.exe",
+            "HBuilderXAlpha"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "HBuilderX.exe",
+            "HBuilderX Alpha"
+        ]
+    ],
+    "checkver": {
+        "url": "https://download1.dcloud.net.cn/hbuilderx/alpha.json",
+        "jp": "$.version"
+    },
+    "autoupdate": {
+        "url": "https://download1.dcloud.net.cn/download/HBuilderX.$version.zip"
+    }
+}
